@@ -1,0 +1,30 @@
+/* Reset some default browser styles */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* Set core body defaults */
+body {
+   min-height: 100vh;
+   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+   background-color: var(--cream);
+}
+
+/* Make images easier to work with */
+img,
+picture {
+   max-width: 100%;
+   display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+   font: inherit;
+}
