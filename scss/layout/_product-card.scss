@@ -77,6 +77,8 @@
 
       background-color: var(--green-500);
 
+      transition: 0.2s background-color ease-in-out;
+
       &:hover {
          background-color: var(--green-700);
       }
