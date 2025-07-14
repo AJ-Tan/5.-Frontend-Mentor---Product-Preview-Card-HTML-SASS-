@@ -1,12 +1,13 @@
-@media (min-width: 36.75em) {
+@media (min-width: 44.28em) {
    main {
       display: grid;
       place-content: center;
-      min-height: 97vh;
    }
 
    .product-card {
       display: grid;
       grid-template-columns: 1fr 1fr;
+
+      max-width: 42rem;
    }
 }

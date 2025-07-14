@@ -1,7 +1,9 @@
 .product-card {
-   max-width: 40rem;
-   background-color: var(--white);
    border-radius: 0.75rem;
+   margin-inline: auto;
+   max-width: 30rem;
+
+   background-color: var(--white);
    overflow: hidden;
 
    &__content,
@@ -13,7 +15,7 @@
 
    &__content,
    &__header {
-      gap: var(--spacing-lg);
+      gap: var(--spacing-md-2);
    }
 
    &__footer {
@@ -22,7 +24,7 @@
 
    &__tag {
       color: var(--grey);
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       font-weight: 500;
       letter-spacing: 0.3rem;
    }
@@ -30,12 +32,13 @@
    &__title,
    &__current {
       font-family: "Fraunces", Arial, Helvetica, sans-serif;
-      font-size: 2rem;
+      font-size: clamp(2.1rem, 1.43rem + 2.5vw, 2.3rem);
+      font-weight: 700;
    }
 
    &__description {
       color: var(--grey);
-      font-size: 0.93rem;
+      font-size: 1rem;
       line-height: 1.5rem;
    }
 
@@ -44,7 +47,8 @@
    }
 
    &__price {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: auto 1fr;
+      gap: var(--spacing-md-2);
       align-items: center;
    }
 
