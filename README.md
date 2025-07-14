@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
--  Solution URL: [Add solution URL here](https://your-solution-url.com)
--  Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-  Solution URL: [GitHub Repository](https://github.com/AJ-Tan/5.-Frontend-Mentor---Product-Preview-Card-HTML-SASS-.git)
+-  Live Site URL: [GitHub Live Page](https://aj-tan.github.io/5.-Frontend-Mentor---Product-Preview-Card-HTML-SASS-/)
 
 ## My process
 
