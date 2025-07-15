@@ -14,16 +14,18 @@
    }
 
    &__content,
-   &__header {
-      gap: var(--spacing-md-2);
-   }
-
+   &__header,
    &__footer {
       gap: var(--spacing-md-2);
    }
 
-   &__tag {
+   &__tag,
+   &__description,
+   &__original {
       color: var(--grey);
+   }
+
+   &__tag {
       font-size: 0.9rem;
       font-weight: 500;
       letter-spacing: 0.3rem;
@@ -37,7 +39,6 @@
    }
 
    &__description {
-      color: var(--grey);
       font-size: 1rem;
       line-height: 1.5rem;
    }
@@ -58,7 +59,6 @@
    }
 
    &__original {
-      color: var(--grey);
       font-size: 0.93rem;
    }
 
