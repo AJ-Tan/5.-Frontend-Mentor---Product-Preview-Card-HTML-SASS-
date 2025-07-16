@@ -38,6 +38,13 @@
       font-weight: 700;
    }
 
+   &__image img {
+      height: 100%;
+      background-color: red;
+      object-fit: cover;
+      object-position: center;
+   }
+
    &__description {
       font-size: 1rem;
       line-height: 1.5rem;
